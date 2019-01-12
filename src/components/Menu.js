@@ -12,7 +12,7 @@ line-height: 22px;
 
 const WorkTime = styled.div`
 color: #2a2a2a;
-font-size: 18px;
+font-size: 16px;
 font-weight: 300;
 line-height: 24px;
 span{
@@ -25,7 +25,7 @@ font-weight: 700;
 
 const Calls = styled.div`
 color: #2a2a2a;
-font-size: 18px;
+font-size: 16px;
 font-weight: 300;
 line-height: 24px;
 span{
@@ -33,6 +33,17 @@ display: block;
 color: #464646;
 font-size: 21px;
 font-weight: 700;
+}
+`
+
+const CallButton = styled.button`
+width: 176px;
+height: 48px;
+background-color: #3fc7db;
+border-radius: 30px;
+color: #ffffff;
+font-size: 14px;
+font-weight: 400;
 }
 `
 
@@ -74,7 +85,7 @@ class Menu extends Component {
                     </Calls>
                 </Col>
                 <Col lg={2}>
-
+                    <CallButton>Заказать звонок!</CallButton>
                 </Col>
 
             </Row>
