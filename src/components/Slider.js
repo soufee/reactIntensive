@@ -169,7 +169,7 @@ class Slider extends Component {
                     {this.renderSlides()}
                 </div>
                 {this.renderArrows()}
-                <ul calssName="dots-container">
+                <ul className="dots-container">
                     {this.renderDots()}
                 </ul>
                 <a className="toggle-play" onClick={this.toggleAutoPlay}>
